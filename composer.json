@@ -1,0 +1,21 @@
+{
+    "name": "myxobek/RemoteImagesLoader",
+    "description": "Small composer package to load all images from remote host",
+    "license": "MIT",
+    "keywords": ["remote", "image", "loader"],
+    "authors": [
+        {
+            "name": "myxobek",
+            "email": "myxobek@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Myxobek\\RemoteImagesLoader\\": "src"
+        }
+    }
+}
